@@ -10,8 +10,8 @@ class AccountActionsContent extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) => Container(
-        width: 80,
+  Widget build(BuildContext context) => SizedBox(
+        width: 75,
         child: Column(
           children: <Widget>[
             Padding(

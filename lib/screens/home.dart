@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_proj3/components/sections/account_points/account_points.dart';
 
 import 'package:flutter_proj3/components/sections/header.dart';
 import 'package:flutter_proj3/components/sections/recent_activity/recent_activity.dart';
@@ -10,8 +11,15 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Column(
-        children: <Widget>[Header(), RecentActivity(), AccountActions()],
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Header(),
+            RecentActivity(),
+            AccountActions(),
+            AccountPoints()
+          ],
+        ),
       ),
     );
   }

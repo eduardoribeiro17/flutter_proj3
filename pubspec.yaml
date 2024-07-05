@@ -18,10 +18,10 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+  uses-material-design: true
   fonts:
     - family: Raleway
       fonts:
         - asset: fonts/Raleway-Regular.ttf
-        - asset: fonts/Raleway-Italic.ttf
+        - asset: fonts/Raleway-Bold.ttf
           weight: 700
-  uses-material-design: true
